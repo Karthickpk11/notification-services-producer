@@ -9,6 +9,8 @@ Project Required:
 
 Enviroment Setup:
 
+Changes require in below file:
+
 
 Commands need to run:
 1. Open a command prompt and navigate to the zookeeper directory
