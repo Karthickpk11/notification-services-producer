@@ -18,10 +18,11 @@ Enviroment Setup:
 3. Open zoo.cfg in any text editor, like Notepad; I prefer Notepad++.
 4. Find and edit dataDir=/tmp/zookeeper like below
    ![image](https://github.com/user-attachments/assets/7f39bbb0-8b49-48c4-a313-6b5368790e77)
-5. Add an entry in the System Environment Variables as we did for Java.
-6. Add ZOOKEEPER_HOME = C:\apache-zookeeper-3.8.4-bin to the System Variables.
-7. Edit the System Variable named “Path” and add ;%ZOOKEEPER_HOME%\bin;
-8. Open a command prompt and navigate to the apache-zookeeper-3.8.4-bin directory. Run the following command to start Zookeeper: _.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties_
+   
+6. Add an entry in the System Environment Variables as we did for Java.
+7. Add ZOOKEEPER_HOME = C:\apache-zookeeper-3.8.4-bin to the System Variables.
+8. Edit the System Variable named “Path” and add ;%ZOOKEEPER_HOME%\bin;
+9. Open a command prompt and navigate to the apache-zookeeper-3.8.4-bin directory. Run the following command to start Zookeeper: _.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties_
 
 **Setting Up Kafka**
 
