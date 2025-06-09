@@ -5,9 +5,9 @@ https://kafka.apache.org/quickstart
 Project Required:
 
 1. Java 17
-2. SpringBoot
-3. Download and extract ZooKeeper  [Latest version]
-4. Download and extract Kafka [Latest version]
+2. SpringBoot (dependency: _spring-boot-starter-web_ and _spring-kafka_) 
+4. Download and extract ZooKeeper  [Latest version]
+5. Download and extract Kafka [Latest version]
 
 Enviroment Setup:
 
@@ -60,23 +60,23 @@ Commands need to run:
 
 **Key Features of Apache Kafka:**
 
-Scalability: Kafka can handle large volumes of data with ease, making it suitable for both small and large-scale applications.
+**Scalability**: Kafka can handle large volumes of data with ease, making it suitable for both small and large-scale applications.
 
-Fault Tolerance: Kafka replicates data across multiple brokers, ensuring high availability and fault tolerance.
+**Fault Tolerance**: Kafka replicates data across multiple brokers, ensuring high availability and fault tolerance.
 
-High Throughput: Kafka can process millions of messages per second, making it ideal for real-time data processing.
+**High Throughput**: Kafka can process millions of messages per second, making it ideal for real-time data processing.
 
-Durability: Kafka persists messages on disk, ensuring data is never lost.
+**Durability**: Kafka persists messages on disk, ensuring data is never lost.
 
 **Kafka Architecture:**
 At a high level, Kafka consists of the following components:
 
-Producer: Sends messages (data) to Kafka topics.
+**Producer**: Sends messages (data) to Kafka topics.
 
-Consumer: Reads messages from Kafka topics.
+**Consumer**: Reads messages from Kafka topics.
 
-Broker: A Kafka server that stores data and serves clients.
+**Broker**: A Kafka server that stores data and serves clients.
 
-Topic: A logical channel to which producers send messages and consumers read them.
+**Topic**: A logical channel to which producers send messages and consumers read them.
 
-Zookeeper: Manages and coordinates Kafka brokers. It helps in leader election, managing configurations, and more.
+**Zookeeper**: Manages and coordinates Kafka brokers. It helps in leader election, managing configurations, and more.
