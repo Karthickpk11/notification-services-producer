@@ -30,14 +30,11 @@ Enviroment Setup:
 1. Go to your Kafka config directory. For me its C:\kafka\config.
 2. Edit the file “server.properties”. Find and edit the line "log.dirs=/tmp/kafka-logs" to "log.dir= C:\kafka\kafka-logs".
 3. Open another command prompt and navigate to the Kafka directory. Run the following command to start the Kafka server: _.\bin\windows\kafka-server-start.bat .\config\server.properties_
-4. 
 
 **Error faced while starting server:**
 
 1. The input line is too long when starting kafka
    **Solution**: keep short length of the path and rename the 'kafka_2.13-4.0.0' folder to something small, like just 'kafka'.
-2. 
-
 
 Commands need to run:
 1. Open a command prompt and navigate to the zookeeper directory.
