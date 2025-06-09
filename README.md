@@ -68,6 +68,7 @@ Commands need to run:
 
 **Durability**: Kafka persists messages on disk, ensuring data is never lost.
 
+
 **Kafka Architecture:**
 At a high level, Kafka consists of the following components:
 
