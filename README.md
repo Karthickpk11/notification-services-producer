@@ -58,7 +58,7 @@ Commands need to run:
   Consumer Result:
   ![image](https://github.com/user-attachments/assets/9dcab210-dcd7-4d99-a637-6a7b4a062202)
 
-**Key Features of Apache Kafka:**
+_**Key Features of Apache Kafka:**_
 
 **Scalability**: Kafka can handle large volumes of data with ease, making it suitable for both small and large-scale applications.
 
@@ -69,7 +69,8 @@ Commands need to run:
 **Durability**: Kafka persists messages on disk, ensuring data is never lost.
 
 
-**Kafka Architecture:**
+_**Kafka Architecture:**_
+
 At a high level, Kafka consists of the following components:
 
 **Producer**: Sends messages (data) to Kafka topics.
